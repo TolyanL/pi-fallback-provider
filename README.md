@@ -33,7 +33,7 @@ pi install git:github.com/TolyanL/pi-fallback-provider
 Pin a tag or commit:
 
 ```sh
-pi install git:github.com/TolyanL/pi-fallback-provider@v0.1.0
+pi install git:github.com/TolyanL/pi-fallback-provider@v1.0.0
 ```
 
 Try it for a single invocation without touching your settings:
