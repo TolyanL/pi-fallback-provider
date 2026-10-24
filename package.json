@@ -1,0 +1,36 @@
+{
+  "name": "pi-fallback-provider",
+  "version": "0.1.0",
+  "description": "Provider and API-key fallbacks for Pi when a request is rate-limited",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "provider",
+    "fallback",
+    "rate-limit",
+    "api-keys"
+  ],
+  "license": "MIT",
+  "author": "TolyanL",
+  "homepage": "https://github.com/TolyanL/pi-fallback-provider#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TolyanL/pi-fallback-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TolyanL/pi-fallback-provider/issues"
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
